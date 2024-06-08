@@ -9,13 +9,15 @@ import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule, HttpClientXsrfModule } from '@angular/common/http';
 import { FormsModule } from "@angular/forms";
+import { TrackOrderComponent } from './track-order/track-order.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    TrackOrderComponent
   ],
   imports: [
     BrowserModule,
